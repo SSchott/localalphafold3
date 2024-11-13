@@ -44,7 +44,7 @@ echo ""
 echo "YOU NEED TO GET THE WEIGHTS FROM GOOGLE YOURSELF, AND ACCEPT THEIR LICENSE AGREEMENT!"
 echo "Afterwards you can decompress them under $ALPHAFOLD3DIR/models"
 
-echo "You need to get the databases to run the data pipeline. Consider using the script provided by DeepMind `fetch_databases.py`. See the README about this"
+echo "You need to get the databases to run the data pipeline. Consider using the script provided by DeepMind fetch_databases.py. See the README about this"
 echo "Depending where you installed the databases, you can run the pipeline by using a command similar to (no GPU need, but access to DB!):"
 echo "${ALPHAFOLD3DIR}/alphafold3-conda/bin/python $(realpath run_alphafold.py) \ "
 echo "--jackhmmer_binary_path $ALPHAFOLD3DIR/hmmer/bin/jackhmmer \ " 
