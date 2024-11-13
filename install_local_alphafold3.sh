@@ -1,6 +1,6 @@
 #!/bin/bash -e
 #SSchott
-#Modified from install_colabbatch_linux.sh from YoshitakaMo @ https://github.com/YoshitakaMo/localalphafold3
+#Modified from install_colabbatch_linux.sh from YoshitakaMo @ https://github.com/YoshitakaMo/localcolabfold
 type wget 2>/dev/null || { echo "wget is not installed. Please install it using apt or yum." ; exit 1 ; }
 
 CURRENTPATH=`pwd`
